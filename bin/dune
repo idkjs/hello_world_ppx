@@ -1,0 +1,5 @@
+
+(executables
+ (names hello_world hello_ppx)
+ (libraries core)
+ (preprocess (pps ppx_jane)))

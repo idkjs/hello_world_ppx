@@ -1,0 +1,5 @@
+(test
+ (name hello_world_ppx)
+ (libraries core)
+ (preprocess
+  (pps ppx_jane)))
